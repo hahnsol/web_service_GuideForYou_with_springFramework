@@ -1,0 +1,174 @@
+.tourReservationPage_body{
+    font-size: 16px;
+}
+
+.tourReservationPage_main{
+    width: 800px;
+    margin:0 auto;
+    margin-bottom: 230px;
+}
+
+.tourReservationPage_main-top{
+    width:800px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 1.5em;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.tourReservationPage_main-form{
+    width:680px;
+    margin:0 auto;
+    background-color: rgba(185, 173, 173, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px 60px;
+    border-radius: 5px;
+}
+
+.tourReservationPage_form-tourSummary{
+    width:680px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.tourReservationPage_form-tourSummary_tourGuide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tourReservationPage_tourSummary-guidePhoto{
+    width:40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+.tourReservationPage_tourSummary-guideNick{
+    font-size: 0.8em;
+    color:white;
+}
+
+.tourReservationPage_form-tourSummary_tourTitle{
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 1.8em;
+    color:white;
+}
+
+.tourReservationPage_form-tourSummary_tourDate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    color:white;
+}
+
+.tourReservationPage_main-form-customerInfo{
+    width:480px;
+    padding: 40px 100px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.tourReservationPage_main-form-customerInfo_row{
+    width:480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.tourReservationPage_main-form-customerInfo_column1{
+    font-size: 0.9em;
+    color:white;
+}
+
+.tourReservationPage_main-form-customerInfo_column2{
+    font-size:0.95em;
+    color:white;
+}
+
+.tourReservationPage_input{
+    padding:5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border:none;
+    width:45%;
+    font-weight: bolder;
+    color:black;
+}
+
+.tourReservationPage_main-form-customerInfo_wish{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 130px;
+}
+
+.tourReservationPage_textarea{
+    resize:none;
+    width:245px;
+    height: 200px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border:none;
+    font-weight: bolder;
+    color:black;
+}
+
+.tourReservationPage_confirm_btn{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.tourReservationPage_confirm_btn_column{
+    width:230px;
+    border-radius: 30px;
+    padding: 13px 0;
+    background-color: #F5A9E1;
+    color:black;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+
+.tourReservationPage_confirm_btn_column:hover{
+    width:230px;
+    border-radius: 30px;
+    padding: 13px 0;
+    background-color: white;
+    color:black;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.tourReservationPage_cancle_btn{
+	display: flex;
+    width: 100%;
+    
+    flex-direction:column;
+    align-items: center;
+}
+
+.cancle_btn{
+    padding-bottom:15px;
+}

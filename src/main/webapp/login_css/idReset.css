@@ -1,0 +1,99 @@
+.back-shadow{
+    background-color: rgba(0,0,0,0.2);
+    z-index: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;}
+
+.Reset-main{ 
+    width:600px;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:100px;
+        margin-bottom: 230px;}
+
+.idResetForm{
+    width:80%;
+    margin:0 auto;
+    background-color: rgba(185, 173, 173, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.idresetbox_colum{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;}
+
+.idresetbox_colum:first-child{
+    margin-top: 50px;
+}    
+
+
+.idReset-top-text{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    color:white;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-family: 'East Sea Dokdo', cursive;}
+
+.main_idresetTop{ 
+    margin-bottom: 60px;
+    color: white;
+    size: 10px;}
+
+.idReset-text{ color: whitesmoke;
+    width: 130px;
+    font-size: 13px;
+    margin-right:50px;
+    margin-bottom: 20px;}
+
+.idReset-input{width: 150px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        
+        text-decoration: none;
+        border:none;
+        font-weight: bolder;
+        margin-right: 10px;
+    margin-bottom: 20px;}
+
+.idreset_button{
+    width: 85%;
+    border-radius: 30px;
+    padding: 13px 0;
+    background-color: #F5A9E1;
+    color:black;
+    border: none;
+    font-size: 17px;
+    margin-top:90px;
+    cursor: pointer;
+}
+
+.idreset_button:hover{
+    width: 85%;
+    border-radius: 30px;
+    padding: 13px 0;
+    background-color: white;
+    color:black;
+    border: none;
+    font-size: 17px;
+    margin-top:90px;
+    cursor: pointer;
+}
+
+

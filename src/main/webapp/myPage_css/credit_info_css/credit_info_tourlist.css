@@ -1,0 +1,53 @@
+
+.credit_main_guide_tourlist{
+    margin-top: 4em;
+    margin-bottom: 8em;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(66, 65, 65, 0.5);
+}
+
+.credit_main_guide_tourlist_name{
+    font-size: 2.4em;
+    margin-bottom: 1.5em;
+    font-weight: 600;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.guide_tourlist_moving-column{
+  margin-bottom: 6em;
+}
+
+.guide_tourlist_moving-column{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.guide_tourlist_moving-column a{
+    text-decoration: none;
+    color: black;
+}
+
+.guide_tourlist_moving-column_card{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.guide_tourlist_moving-column img{
+    width: 23em;
+    height: 25em;
+    margin-top: 2px;
+}
+
+.card-body{
+    font-size: 12px;
+}
+
+
+
+
+
+
+

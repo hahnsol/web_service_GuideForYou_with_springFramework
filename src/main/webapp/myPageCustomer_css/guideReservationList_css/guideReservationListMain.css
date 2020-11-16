@@ -1,0 +1,146 @@
+
+.discribe_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(66, 65, 65, 0.5);
+}
+
+.guide_navigation{
+    color: rgb(86, 88, 223);
+}
+
+
+.guideReservationList_main_title{
+    font-size: 3.2em;
+    margin-bottom: 1.5em;
+    font-family: 'East Sea Dokdo', cursive;
+   
+}
+
+.guideReservationList_main_tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.guideReservationList_main_div{
+    height: 2.4em;
+    border: .5px solid black;
+}
+
+.guideReservationList_main_tablinks{
+    border: none;
+    background-color: white;
+    font-size: 2.4em;
+    font-family: 'East Sea Dokdo', cursive;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+}
+
+.guideReservationList_main_tablinks:focus{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+
+.task{
+    width: 100%;
+    background: rgba(255,255,255,0.5);
+    padding: 1.8em;
+    margin: 3.5em 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
+
+.guideReservationList_notcomp .task{
+    background-color: rgba(218, 214, 214, 0.5);
+}
+
+
+.guideReservationList_comp .task_div{
+    border: .5px solid white;
+    height: 12px;
+}
+
+.task_div{
+    border: .5px solid black;
+    height: 12px;
+}
+
+.comtask_div{
+    border: .5px solid white;
+    height: 12px;
+}
+
+
+.n_guide_arrow{
+    text-decoration: none;
+    color: black;
+    width: 90px;
+}
+.fa-chevron-right{
+    margin-left: 5px;
+}
+.c_guide_arrow{
+    text-decoration: none;
+    color: #fff;
+    width: 90px;
+}
+
+.n_guide_arrow:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 1.6em;
+    width: 90px;
+    font-family: 'East Sea Dokdo', cursive;
+}
+.c_guide_arrow:hover{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6em;
+    width: 90px;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.guidelList_content{
+    display: flex;
+    justify-content: center;
+    font-weight: 550;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.guideReservationList_comp{
+    display: none;
+}
+
+.guideReservationList_comp .task{
+    background: rgba(26, 25, 25, 0.5);
+    color: #fff;
+}
+
+.comtask_div{
+    border: .5px solid #fff;
+}
+
+.list_backcolor{
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background-color: rgba(250, 246, 246, 0.1);
+}
+
+.doingTour{
+    color: black;
+}

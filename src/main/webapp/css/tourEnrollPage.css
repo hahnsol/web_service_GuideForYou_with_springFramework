@@ -1,0 +1,145 @@
+.tourEnrollPage_body{
+    font-size: 16px;
+}
+
+.tourEnrollPage_main{
+    width:600px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 230px;
+}
+
+.tourEnrollPage_main-top{
+    display: flex; 
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size:2em;
+    color:white;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.tourEnrollPage_main-form{
+    width:80%;
+    margin:0 auto;
+    background-color: rgba(185, 173, 173, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px 60px;
+    border-radius: 5px;
+}
+
+.tourEnrollPage_main-form_inputBox{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.tourEnrollPage_main-text{
+    font-size: 0.9em;
+    color:white;
+}
+
+.tourEnrollPage_main-input{
+    color:white;
+    font-size: 0.95em;
+}
+
+.tourEnrollPage_main-form_inputBox input{
+    padding:5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border:none;
+    width:45%;
+    font-weight: bolder;
+    color:black;
+}
+
+.tourEnrollPage_main-form_inputBox select{
+    width:50%;
+    padding:5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border:none;
+    font-weight: bolder;
+    color:black;
+}
+
+.tourEnroll_content_text{
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    color:white;
+}
+
+.tourEnroll_content{
+    align-items: flex-start;
+}
+
+.tourEnroll_content-tourTile{
+    resize: none;
+    width:250px;
+    height:70px;
+    justify-content: end;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border:none;
+    font-weight: bolder;
+    color:black;
+}
+
+.tourEnroll_content-tourContent{
+    resize:none;
+    width:245px;
+    height: 200px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border:none;
+    font-weight: bolder;
+    color:black;
+}
+
+.tourEnrollPage_main-form_Photo {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tourEnrollPage_main_photo-text{
+    margin-bottom: 15px;
+    color:white;
+}
+
+.tourEnrollPage_main-photoBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:100px;
+}
+
+.tourPhoto_input{
+    margin-bottom: 10px;
+    color:white;
+}
+
+.tourPhoto_alert{
+    font-size:0.7em;
+    color: rgba(250, 250, 250, 0.7);
+}
+
+.tourEnrollBtn{
+    width:100%;
+    border-radius: 30px;
+    padding: 13px 0;
+    background-color: #F5A9E1;
+    color:black;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

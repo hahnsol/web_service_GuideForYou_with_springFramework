@@ -1,0 +1,136 @@
+header{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 10px 0;
+}
+
+.header_wrapper{
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.indexPage_headerWrapper{
+    border-bottom: .5px solid rgba(0, 0, 0, 0.2);
+}
+
+.header_column1{
+    width:50%;
+    display: flex;
+    align-items: center;
+}
+
+.header_column1 img{
+    width:40px;
+    height:50px;
+    margin-right: 4px;
+}
+
+.header-web_name{
+    font-size: 20px;
+    color:#F5A9E1;
+}
+
+.header_column2{
+    width:50%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.headerWhenNotLogin_first{
+    border-right:1px solid rgba(250, 250, 250, 0.5);
+    padding-right: 15px;
+}
+
+.header_memberProfilePhoto{
+    width:30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.header-login{
+    font-size: 12px;
+    color:white;
+}
+
+.header-join{
+    margin-left:15px;
+    font-size: 12px;
+    color:white;
+}
+
+.headerWhenLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color:white;
+}
+
+.headerWhenLogin_first{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.headerWhenLogin_second{
+    padding-left:15px;
+}
+
+.headerWhenLogin_third{
+	padding-left:15px;
+}
+
+.headerWhenLogin_first{
+    padding-right:15px;
+    border-right: 1px solid rgba(250, 250, 250, 0.5);
+}
+
+.headerWhenLogin_second{
+	padding-right:15px;
+    border-right: 1px solid rgba(250, 250, 250, 0.5);
+}
+
+.login-blackLine_first{
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.notLogin-blackLine_first{
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.notLogin-blackLine_second{
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.header-row{
+    width:100%;
+}
+
+.header_mypageText{
+    margin-left: 10px;
+}
+
+.blackText{
+    color:black;
+}
+
+.dark_header{
+    background-color: rgba(0, 0, 0, 0.2);
+    width:100%;
+    margin-bottom: 80px;
+}
+
+.mypage_header{
+    background-color: #2E2E2E;
+    width:100%;
+    margin-bottom: 130px;
+}
+
+

@@ -1,0 +1,103 @@
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.back-shadow{
+    background-color:rgba(0,0,0,0.2);
+    z-index: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.withdrawPage_main{ 
+    width:70%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+    margin-bottom: 230px;}
+    
+.withdrawPage-main-top{
+    font-family: 'East Sea Dokdo', cursive;  
+    display: flex; 
+    align-items: center;
+    color:white;
+    font-size:32px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    width: 100%;}
+    
+.withdrawForm{
+    width: 100%;
+    margin:0 auto;
+    background-color: rgba(185, 173, 173, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px 60px;
+    justify-content: space-between;
+}
+
+.withdrawPage-main-top-text{
+margin-bottom: 20px;
+margin-top: 10px;
+color: white;
+}
+
+
+
+.withdrawbuttons{display: flex;
+    align-items: center; 
+    justify-content: space-between;  
+    width:350px; 
+}
+.withdrawtextbox{
+    widows:40%;
+    width: 80%;
+    height: 300px;
+    margin:0 auto;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px 100px;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 30PX;
+    font-size: 20px;
+}
+
+   
+.withdrawButton_cancel{
+    width: 150px;
+    border-radius: 30px;
+    padding: 13px 0;
+    background-color: pink;
+    color:black;
+    border: none;
+    margin-bottom: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.withdrawButton_confirm{
+    width: 150px;
+    border-radius: 30px;
+    padding: 13px 0;
+    background-color: grey;
+    color:whitesmoke;
+    border: none;
+    margin-bottom: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

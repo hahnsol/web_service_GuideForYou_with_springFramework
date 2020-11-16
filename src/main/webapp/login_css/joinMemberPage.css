@@ -1,0 +1,131 @@
+.back-shadow{
+    background-color: rgba(0,0,0,0.2);
+    z-index: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.joinMember_main {
+    width:600px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+    margin-bottom: 230px;
+}
+
+.joinMemberForm{
+    width:100%;
+    margin:0 auto;
+    background-color: rgba(185, 173, 173, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+.joinMemberForm_column{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.joinMember_main_top{
+    font-family: 'East Sea Dokdo', cursive;
+    display: flex; 
+    align-items: center;
+    color:white;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.joinMemberForm-text{
+    color: whitesmoke;
+    width: 130px;
+    font-size: 13px;
+    margin-right:50px;
+    margin-bottom: 20px;
+}
+
+.joinMemberForm-input{
+    width: 200px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+    text-decoration: none;
+    border:none;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+
+
+.joinMemberForm_select{
+    width:200px;
+    padding:5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border:none;
+   font-size: 5px;
+    
+}
+.joinMemberForm_id{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    width: 100%;
+    padding-left:120px;
+}
+
+.joinMemberForm_doubleCheck{
+    width: 80px;
+    border-radius: 30px;
+    padding: 8px 0;
+    color:white;
+    border:2px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.joinMemberForm-empty{
+    width:80px;
+}
+
+.joinMemberFrom_button{
+    width: 80%;
+    border-radius: 30px;
+    padding: 13px 0;
+    background-color: #F5A9E1;
+    color:black;
+    border: none;
+    font-size: 17px;
+    margin-top:60px;
+    cursor: pointer;
+}
+
+
+.joinMemberFrom_button:hover{
+    width: 80%;
+    border-radius: 30px;
+    padding: 13px 0;
+    background-color:white;
+    color:black;
+    border: none;
+    font-size: 17px;
+    margin-top:60px;
+    cursor: pointer;
+} 

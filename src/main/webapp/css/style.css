@@ -1,0 +1,10 @@
+@import "globals.css";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+@import "header.css";
+@import "indexPage.css";
+@import "footer.css";
+@import "tourEnrollPage.css";
+@import "kindOfLocalPage.css";
+@import "jinSunMi.css";
+@import "tourGuideContentPage.css";
+@import "tourReservationPage.css";

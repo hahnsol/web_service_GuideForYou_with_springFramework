@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+@import "loginPage.css";
+@import "passwordReset.css";
+@import "idReset.css";
+@import "joinMemberPage.css";
+@import "widthdrawPage.css";
+@import "editProfilePage.css";
+@import "checkPasswordPage.css";
+
+body{
+    margin:0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+input{
+    text-decoration: none;
+    outline: none;
+}
+
+button{
+    text-decoration: none;
+    color: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}

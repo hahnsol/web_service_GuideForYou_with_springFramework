@@ -1,0 +1,104 @@
+.indexPage_body{
+    font-size: 16px;
+}
+
+.index_section1{
+    width:100%;
+    margin:0;
+    top:0;
+}
+
+.index_section1 img{
+    width:100%;
+    height:550px;
+    margin-left:0px;
+    padding-left:0;
+    margin-bottom: 30px;
+    filter: brightness(80%);
+}
+
+.indexPage_main{
+    width:100%;
+    bottom: 0;
+    margin:0 auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:185px 0 0 0;
+}
+
+.indexPage_main-text{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size:3.5em;
+    margin-bottom: 80px;
+    font-weight: 550;
+}
+
+.indexPage_main-categoryBox{
+    width:100%;
+    
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:90px 0 150px 0;
+}
+
+.indexPage_main-iconTextBox>a:not(:first-child){
+    padding-left: 30px;
+}
+
+.indexPage_main-iconTextBox>a:not(:last-child){
+    padding-right: 30px;
+}
+
+.indexPage_main-categoryText{
+    font-family: 'East Sea Dokdo', cursive;
+    margin-bottom: 60px;
+    color: bisque;
+    font-size: 65px;
+}
+
+.indexPage_main-categoryBox_localBox{
+    width:650px;
+    height:75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:100px;
+}
+
+.indexPage_main-categoryBox_localBox>a{
+    width:75px;
+    height: 75px;
+   
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.indexPage-local_text{
+    color: bisque;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 32px;
+}
+
+
+.indexPage-local_text:hover{
+    color: #F5A9E1;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 40px;
+    transform: rotate( 10deg );
+}

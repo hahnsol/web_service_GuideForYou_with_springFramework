@@ -1,0 +1,131 @@
+
+.EditProfilePage-main{
+    width:600px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+    margin-bottom: 230px;}
+
+.EditProfilePage-Form{
+    width:100%;
+    margin:0 auto;
+    background-color: rgba(185, 173, 173, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px;
+}
+    .EditProfilePage-Form-column{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .EditProfilePage-main-top{
+        font-family: 'East Sea Dokdo', cursive;
+        justify-content: start;
+        display: flex; 
+        align-items: center;
+        color:white;
+        font-size: 32px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .EditProfilePage-Form-text{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: whitesmoke;
+        width: 50%;
+        margin-left: 12px;
+        font-size: 13px;
+        margin-right:50px;
+        margin-bottom: 30px;}
+
+        .EditProfilePage-Form-input{
+            width: 50%;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            text-decoration: none;
+            border:none;
+            margin-right: 10px;
+        }
+
+        .EditProfilePage-Form-select{
+            width:50%;
+            padding:5px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            border:none;
+           font-size: 5px;
+           margin-right: 12px;
+            
+        }
+        .EditProfilePage-Form-profilepic{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           
+        }
+        .EditProfilePage-Form-button{ 
+            width: 100%;
+            border-radius: 30px;
+            padding: 13px 0;
+            background-color: #F5A9E1;
+            color:black;
+            border: none;
+            font-size: 15px;
+            margin-top:80px;
+            cursor: pointer;}
+
+        .EditProfilePage-Form-button:hover{
+        width: 100%;
+        border-radius: 30px;
+        padding: 13px 0;
+        background-color:white;
+        color:black;
+        border: none;
+        font-size: 15px;
+        margin-top:80px;
+        cursor: pointer;
+        }
+        .EditProfilePage-Form-profilepic-edit{
+            width: 120px;
+            border-radius: 30px;
+            padding: 5px 0; 
+            text-decoration: none;
+            border: none;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-bottom: 80px;
+            margin-left: 45px;
+            color: white;
+            font-size: 10px;
+            
+        }
+
+        .EditProfilePage-profilepic2{
+            margin-bottom: 20px;
+            margin-left: 25px;
+            width: 150px;
+            height: 150px;
+        }
+
+        .readonly{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            color: white;
+            
+        }
+
+   

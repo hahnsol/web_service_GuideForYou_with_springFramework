@@ -1,0 +1,115 @@
+.credit_main_evaluation_sector{
+    margin-bottom: 8em;
+}
+
+.evaluation_guide{
+    
+}
+
+.credit_main_evaluation_sector_name_title{
+    font-size: 2.4em;
+    margin-bottom: 4.5em;
+    font-weight: 600;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10em;
+}
+
+.tablinks{
+    border: none;
+    background-color: white;
+    font-size: 2.4em;
+    font-family: 'East Sea Dokdo', cursive;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+}
+
+.tablinks:focus{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    
+}
+
+.credit_main_sector_score{
+    font-size: 1.4em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.credit_info_total_score{
+    margin:0 10px 0 10px;
+}
+
+
+.review_member{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 0 0;
+}
+
+.guide_sector_columns_review_member{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5em 0 0 0;
+    border-top:1px solid rgba(66, 65, 65, 0.2);
+}
+
+.review_member{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.review_member_top{
+    display: flex;
+    align-items: center;
+    margin: 1em 0 6px 0;
+}
+.review_member_middle{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.review_member_bottom{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3px;
+}
+
+.review_member_info_img{
+    width: 3.5em;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.review_member_info_nick{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.review_member_review{
+    font-size: 1.3em;
+    color: rgba(41, 40, 40, 0.8);
+}
+
+.evaluation_customer {
+    display: none;
+}
+
+.review_member_score{
+    font-size: 12px;
+}

@@ -1,0 +1,37 @@
+@import "myPageManage_css/mypage_main_profile.css";
+@import "myPageManage_css/mypage_sector.css";
+
+
+@import "credit_info_css/credit_info_profile.css";
+@import "credit_info_css/credit_info_tourlist.css";
+@import "credit_info_css/credit_info_guide_setor.css";
+@import "credit_info_css/credit_info_customer_sector.css";
+
+@import "myBoardReading_css/myBoardReading.css";
+
+
+@import "guideReservationList_css/guideReservationListMain.css";
+@import "guideReservationPeaple_css/guideReservationPeaple.css";
+@import "guideWriteReview_css/guideWriteReview.css";
+@import "guideManageReviewPage_css/guideManageReview.css";
+
+@import "guideEvaluationWrite_css/guideEvaluationWrite.css";
+
+@import "guideTourReservationCheck_css/guideTourReservationCheck.css";
+@import "customerUpdateTourReservationFormPage_css/customerUpdateTourReservationFormPage.css";
+
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+.myPage_wrapper{
+    font-size: 10px;
+    width:80%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+

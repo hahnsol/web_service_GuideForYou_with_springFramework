@@ -1,0 +1,140 @@
+.guideManageReview_main_review_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+.guideManageReview_main_review_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px; 
+    padding: 10px 15px 10px 15px;
+    background-color: rgba(26, 25, 25, 0.5);
+    font-size: 1.3em;
+    color: #fff;
+
+}
+
+.guideManageReview_main_review_top_column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.review_top_column_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review_delete:hover{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+
+.review_delete_btn{
+    margin-right: 15px;
+    background-color: rgba(26, 25, 25, 0.8);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+
+.review_flip{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 8px;
+    cursor:pointer;
+}
+
+
+.guideManageReview_main_review_bottom{
+    width: 90%;
+    display:none;
+    
+}
+
+.guideManageReview_main_review_bottom_column{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(214, 209, 209, 0.3);
+    border-radius: 5px;
+    font-size: 1.3em;
+    width: 100%;
+    
+}
+
+.review_bottom_column_review{
+    margin:25px 0 15px 20px;
+    width:80%;
+}
+
+.review_bottom_column_score{
+    margin: 25px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.review_bottom_column_star_img{
+    margin-right: 10px;
+}
+
+
+.guideManage_task_div{
+    border: .5px solid white;
+    height: 22px;
+}
+
+
+#guide_get_review{
+    display: none;
+}
+
+.getreview_top_column_get{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+.getreview_top_column_get_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px; 
+    padding: 10px 15px 10px 15px;
+    font-size: 1.3em;
+    color: black;
+    background-color: #F5A9E1;
+}
+
+.getreview_top_column_get_bottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(245, 216, 236, 0.3);
+    border-radius: 5px;
+    font-size: 1.3em;
+    width: 100%;
+}
+

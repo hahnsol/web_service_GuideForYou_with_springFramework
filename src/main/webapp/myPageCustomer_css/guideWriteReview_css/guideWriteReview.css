@@ -1,0 +1,45 @@
+.writeReview_column{
+    justify-content: space-between;
+}
+
+.guideWritereview_main_title{
+    font-size: 2.4em;
+    margin-bottom: 1.5em;
+    font-family: 'East Sea Dokdo', cursive;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em ; 
+    border-bottom: 1px solid rgba(66, 65, 65, 0.5);
+}
+
+.guidelList_content_title{
+    font-size: 1.3em;
+}
+
+.writeReview_column_content{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.writeReview_column a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guidelList_content_nick{
+    display: flex;
+    align-items: center;
+    
+}
+
+.writeReview_column_name{
+    margin-left: 15px;
+    
+}
+
+.writeReview_column_div{
+    border: .5px solid black;
+    height: 22px;
+}

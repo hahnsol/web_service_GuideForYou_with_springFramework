@@ -1,0 +1,158 @@
+.back-shadow{
+    background-color: rgba(0, 0, 0, 0.2);
+	z-index: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.loginPage_main{
+    width:305px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 230px;
+    margin-top:150px;
+}
+
+.main_section1{
+    width:305px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:30px;
+    border-bottom:1px solid rgba(250, 249, 249, 0.5);
+}
+
+.main_section1-topBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.topBox_loginText{
+    color:white;
+    font-weight: bolder;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 32px;
+}
+
+.topBox_forgotPassword{
+    font-size:11px;
+    color: rgba(250, 249, 249, 0.5);
+}
+
+.main_section1-loginBox{
+    width:305px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.LonIn_input{
+    width:260px;
+    font-size:15px;
+    padding:20px 17px;
+    border:none;
+    text-decoration: none;
+}
+
+.LonIn_input:not(:last-child){
+    border-bottom:1px solid rgba(0, 0, 0, 0.2);
+    margin:3px;
+}
+
+.login_button{
+    width:305px;
+    font-size:15px;
+    padding: 13px 0;
+    border-radius: 30px;
+    background-color: #F5A9E1;
+    color:balck;
+    border:none;
+    margin-bottom: 25px;
+}
+
+.main_section2{
+    width:305px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_section2-text{
+    color:rgba(255, 255, 255, 0.8);
+    margin-bottom:15px;
+    font-size:12px;
+    font-weight: bolder;
+}
+
+.main_section2-joinMember{
+    width:305px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding:13px 0;
+    font-size:15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.ResetButtons{
+    display: inline;
+    align-items: center; 
+    justify-content: space-between;  
+    width:350px; 
+}
+.idResetButton{
+    margin-left: 30%;
+    margin-bottom: 60px;
+    width: 200px;
+    border-radius: 30px;
+    padding: 20px 0;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:white;
+    border: none;
+    margin-bottom: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:12px; }
+    
+
+
+ .passwordResetButton{
+    margin-bottom: 60px;
+    margin-left: 30%;
+    width: 200px;
+    border-radius: 30px;
+    padding: 20px 0;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:white;
+    border: none;
+    margin-bottom: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;}
+    
+.modal-title{
+    font-size: 15px;
+}     

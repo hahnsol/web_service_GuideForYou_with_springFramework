@@ -1,0 +1,48 @@
+.guideReservation_photo{
+    border-radius: 200px;
+    width: 50px;
+    height: 50px
+}
+#guide_party_n .task{
+    background-color: #F5A9E1;
+    color: black;
+}
+
+#guide_party_y .guidelList_task_div{
+    border: .5px solid white;
+    height: 22px;
+}
+
+#guide_party_n .guidelList_task_div{
+    border: .5px solid black;
+    height: 22px;
+}
+
+.guidelList_task_div{
+    border: .5px solid black;
+    height: 22px;
+}
+
+.watch_reservationList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.y_watch_reservationList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.y_watch_reservationList:hover{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.guidelList_content:hover{
+    text-decoration: none;
+    color: inherit;
+}
